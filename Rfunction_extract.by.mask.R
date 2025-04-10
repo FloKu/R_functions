@@ -1,4 +1,5 @@
 #### Function to cut, project and resample a raster ####
+### convencience function, inspired by old ArcGIS tool "extract by mask" ###
 ## author: Florian Kunz
 ## created: 10.08.2022
 ## adapted: 16.01.2025, version 1.1
