@@ -13,7 +13,7 @@
 ## considered to be unambiguous.
 ## Missing data must be recorded as NA in obj@tab.
 
-genind2structure <- function(obj, file="", pops=FALSE){
+genind2structure_update <- function(obj, file="", pops=FALSE){
   if(!"genind" %in% class(obj)){
     warning("Function was designed for genind objects.")
   }
