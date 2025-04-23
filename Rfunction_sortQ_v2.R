@@ -7,7 +7,7 @@
 
 ## Minor update in code necessary, so full credits to original package pophelper, version 2.3.1; please refer to documentation of sortQ
 
-sortQ_adapted <- function(qlist, by = "k", decreasing = FALSE, debug = FALSE){
+sortQ_update <- function(qlist, by = "k", decreasing = FALSE, debug = FALSE){
   is.qlist(qlist)
   if (length(by) == 0) 
     stop("sortQ: Argument 'by' must not be length zero.")
