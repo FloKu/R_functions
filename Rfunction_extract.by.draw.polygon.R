@@ -1,14 +1,11 @@
 #### Function to cut and crop a raster based on a drawn polygon ####
 ## author: Florian Kunz
 ## created: 23.11.23, based on extract.by.mask and dra.polygon
-## adapted: 
+## adapted: 09.05.25
 
 ## ras_in: raster that should be cut according to a reference raster
-## ras_ref: input raster but with spatial extent, crs and cell dimensions of reference raster
-## categorical: logical, whether data is categorical
-## Default for resample: nearest for class/bilinear for continuous
 
-fun.extract.by.draw.polygon <- function(in_ras) {
+Rfunction.extract.by.draw.polygon <- function(in_ras) {
   require("terra")
   require("tmaptools")
   plot(in_ras)
